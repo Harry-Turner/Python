@@ -1,0 +1,11 @@
+{% for animal in animals %}
+
+    <h1>{{animal.title}}</h1>
+    
+    <img src={{animal.image_url}} width="500em" alt="{{animal['title']}}">
+
+    <br>
+
+    <p>Animal ID: {{animal.id}}</p>
+
+{% endfor %}
